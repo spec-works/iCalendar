@@ -1,0 +1,52 @@
+{
+  "linkset": [
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc5545.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "Internet Calendaring and Scheduling Core Object Specification (iCalendar)"
+    },
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc5546.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "iCalendar Transport-Independent Interoperability Protocol (iTIP)"
+    },
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc6868.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "Parameter Value Encoding in iCalendar and vCard"
+    },
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc7986.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "New Properties for iCalendar"
+    },
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc7529.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "Non-Gregorian Recurrence Rules in iCalendar"
+    },
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc9073.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "Event Publishing Extensions to iCalendar"
+    },
+    {
+      "href": "https://www.rfc-editor.org/rfc/rfc9074.html",
+      "type": "text/html",
+      "rel": "describedby",
+      "title": "VALARM Extensions for iCalendar"
+    },
+    {
+      "href": "https://www.iana.org/assignments/media-types/text/calendar",
+      "type": "text/html",
+      "rel": "related",
+      "title": "IANA Media Type Registration for text/calendar"
+    }
+  ]
+}

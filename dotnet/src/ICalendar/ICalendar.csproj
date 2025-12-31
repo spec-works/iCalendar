@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>ICalendar.Net</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ICalendar Parser Team</Authors>
+    <Company>ICalendar.Net</Company>
+    <Product>ICalendar.Net</Product>
+    <Description>A complete .NET library for parsing, validating, and serializing iCalendar (text/calendar) data according to RFC 5545. Includes a full Document Object Model (DOM) for all iCalendar components including VCALENDAR, VEVENT, VTODO, VJOURNAL, VALARM, VTIMEZONE, and more.</Description>
+    <PackageTags>icalendar;calendar;parser;serializer;validator;rfc5545;vcalendar;vevent;vtodo;ics</PackageTags>
+    <PackageProjectUrl>https://github.com/yourusername/icalendar-net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/icalendar-net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release with full RFC 5545 support for parsing, validation, and serialization.</PackageReleaseNotes>
+    <Copyright>Copyright (c) 2023-2024</Copyright>
+
+    <!-- Strong Naming -->
+    <AssemblyName>ICalendar</AssemblyName>
+    <RootNamespace>ICalendar</RootNamespace>
+
+    <!-- Source Link Support -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
