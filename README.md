@@ -10,7 +10,7 @@ See [specs.json](specs.json) for complete specification references.
 
 ## Implementations
 
-- [.NET](dotnet/README.md) - Library
+- **[.NET Library](dotnet/README.md)** - ![.NET Test](https://github.com/spec-works/iCalendar/workflows/.NET%20Test/badge.svg)
 
 ## License
 
