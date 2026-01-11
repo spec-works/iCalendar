@@ -21,7 +21,7 @@ namespace ICalendar
             Properties[property.Name].Add(property);
         }
 
-        public CalendarProperty GetProperty(string name)
+        public CalendarProperty? GetProperty(string name)
         {
             return Properties.ContainsKey(name) ? Properties[name].FirstOrDefault() : null;
         }
@@ -58,7 +58,7 @@ namespace ICalendar
             Parameters[paramName].Add(paramValue);
         }
 
-        public string GetParameter(string paramName)
+        public string? GetParameter(string paramName)
         {
             return Parameters.ContainsKey(paramName) ? Parameters[paramName].FirstOrDefault() : null;
         }
@@ -76,25 +76,25 @@ namespace ICalendar
     {
         public override string ComponentType => "VCALENDAR";
 
-        public string Version
+        public string? Version
         {
             get => GetProperty("VERSION")?.Value;
             set => AddProperty(new CalendarProperty("VERSION", value));
         }
 
-        public string ProductId
+        public string? ProductId
         {
             get => GetProperty("PRODID")?.Value;
             set => AddProperty(new CalendarProperty("PRODID", value));
         }
 
-        public string CalendarScale
+        public string? CalendarScale
         {
             get => GetProperty("CALSCALE")?.Value;
             set => AddProperty(new CalendarProperty("CALSCALE", value));
         }
 
-        public string Method
+        public string? Method
         {
             get => GetProperty("METHOD")?.Value;
             set => AddProperty(new CalendarProperty("METHOD", value));
@@ -138,37 +138,37 @@ namespace ICalendar
             set => AddProperty(new CalendarProperty("DTEND", value));
         }
 
-        public string Duration
+        public string? Duration
         {
             get => GetProperty("DURATION")?.Value;
             set => AddProperty(new CalendarProperty("DURATION", value));
         }
 
-        public string Summary
+        public string? Summary
         {
             get => GetProperty("SUMMARY")?.Value;
             set => AddProperty(new CalendarProperty("SUMMARY", value));
         }
 
-        public string Description
+        public string? Description
         {
             get => GetProperty("DESCRIPTION")?.Value;
             set => AddProperty(new CalendarProperty("DESCRIPTION", value));
         }
 
-        public string Location
+        public string? Location
         {
             get => GetProperty("LOCATION")?.Value;
             set => AddProperty(new CalendarProperty("LOCATION", value));
         }
 
-        public string Status
+        public string? Status
         {
             get => GetProperty("STATUS")?.Value;
             set => AddProperty(new CalendarProperty("STATUS", value));
         }
 
-        public string Organizer
+        public string? Organizer
         {
             get => GetProperty("ORGANIZER")?.Value;
             set => AddProperty(new CalendarProperty("ORGANIZER", value));
@@ -196,31 +196,31 @@ namespace ICalendar
             set => AddProperty(new CalendarProperty("DTSTAMP", value));
         }
 
-        public string Summary
+        public string? Summary
         {
             get => GetProperty("SUMMARY")?.Value;
             set => AddProperty(new CalendarProperty("SUMMARY", value));
         }
 
-        public string Status
+        public string? Status
         {
             get => GetProperty("STATUS")?.Value;
             set => AddProperty(new CalendarProperty("STATUS", value));
         }
 
-        public string Due
+        public string? Due
         {
             get => GetProperty("DUE")?.Value;
             set => AddProperty(new CalendarProperty("DUE", value));
         }
 
-        public string Completed
+        public string? Completed
         {
             get => GetProperty("COMPLETED")?.Value;
             set => AddProperty(new CalendarProperty("COMPLETED", value));
         }
 
-        public string PercentComplete
+        public string? PercentComplete
         {
             get => GetProperty("PERCENT-COMPLETE")?.Value;
             set => AddProperty(new CalendarProperty("PERCENT-COMPLETE", value));
@@ -248,13 +248,13 @@ namespace ICalendar
             set => AddProperty(new CalendarProperty("DTSTAMP", value));
         }
 
-        public string Summary
+        public string? Summary
         {
             get => GetProperty("SUMMARY")?.Value;
             set => AddProperty(new CalendarProperty("SUMMARY", value));
         }
 
-        public string Description
+        public string? Description
         {
             get => GetProperty("DESCRIPTION")?.Value;
             set => AddProperty(new CalendarProperty("DESCRIPTION", value));
@@ -369,25 +369,25 @@ namespace ICalendar
     {
         public override string ComponentType => "VALARM";
 
-        public string Action
+        public string? Action
         {
             get => GetProperty("ACTION")?.Value;
             set => AddProperty(new CalendarProperty("ACTION", value));
         }
 
-        public string Trigger
+        public string? Trigger
         {
             get => GetProperty("TRIGGER")?.Value;
             set => AddProperty(new CalendarProperty("TRIGGER", value));
         }
 
-        public string Description
+        public string? Description
         {
             get => GetProperty("DESCRIPTION")?.Value;
             set => AddProperty(new CalendarProperty("DESCRIPTION", value));
         }
 
-        public string Summary
+        public string? Summary
         {
             get => GetProperty("SUMMARY")?.Value;
             set => AddProperty(new CalendarProperty("SUMMARY", value));

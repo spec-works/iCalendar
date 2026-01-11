@@ -295,7 +295,7 @@ namespace ICalendar
             ValidateRequiredProperty(valarm, "TRIGGER", result, "VALARM");
         }
 
-        private void ValidateRequiredProperty(CalendarComponent component, string propertyName, ValidationResult result, string componentType = null)
+        private void ValidateRequiredProperty(CalendarComponent component, string propertyName, ValidationResult result, string? componentType = null)
         {
             var property = component.GetProperty(propertyName);
             if (property == null)
