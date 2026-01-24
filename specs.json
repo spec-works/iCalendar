@@ -47,6 +47,11 @@
       "type": "text/html",
       "rel": "related",
       "title": "IANA Media Type Registration for text/calendar"
+    },
+    {
+      "rel": "registry",
+      "title": "Part registry entry",
+      "href": "https://spec-works.github.io/registry/parts/icalendar/"
     }
   ]
 }

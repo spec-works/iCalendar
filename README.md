@@ -1,4 +1,6 @@
 # iCalendar
+[![Registry](https://img.shields.io/badge/Registry-SpecWorks-blue)](https://spec-works.github.io/registry/parts/icalendar/)
+
 
 Software component for parsing, validating, and serializing iCalendar (text/calendar) data.
 
