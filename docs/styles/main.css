@@ -13,6 +13,8 @@
 
 .site-logo img {
   margin-right: 5px;
+.navbar-brand img {
+  margin-right: 5px;
 }
 
 /* Ensure navigation items are vertically aligned */
