@@ -1,10 +1,12 @@
-# ICalendar Documentation
+# Specworks.iCalendar Documentation
 
 Parse, validate, and serialize iCalendar data according to [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545).
 
-## What is ICalendar?
+[![NuGet](https://img.shields.io/nuget/v/Specworks.iCalendar.svg)](https://www.nuget.org/packages/Specworks.iCalendar/)
 
-ICalendar is a .NET library that provides comprehensive support for parsing, validating, and serializing iCalendar data. It implements the Internet Calendaring and Scheduling Core Object Specification (iCalendar) as defined in RFC 5545.
+## What is Specworks.iCalendar?
+
+Specworks.iCalendar is a .NET library that provides comprehensive support for parsing, validating, and serializing iCalendar data. It implements the Internet Calendaring and Scheduling Core Object Specification (iCalendar) as defined in RFC 5545.
 
 ## Installation
 
@@ -214,6 +216,7 @@ MIT License - see [LICENSE](https://github.com/spec-works/iCalendar/blob/main/LI
 
 ## Links
 
+- **NuGet Package**: [nuget.org/packages/Specworks.iCalendar](https://www.nuget.org/packages/Specworks.iCalendar/)
 - **GitHub Repository**: [github.com/spec-works/iCalendar](https://github.com/spec-works/iCalendar)
 - **RFC 5545 Specification**: [rfc-editor.org/rfc/rfc5545](https://www.rfc-editor.org/rfc/rfc5545)
 - **SpecWorks Factory**: [spec-works.github.io](https://spec-works.github.io)
