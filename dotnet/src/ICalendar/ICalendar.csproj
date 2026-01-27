@@ -9,7 +9,7 @@
 
     <!-- NuGet Package Properties -->
     <PackageId>Specworks.iCalendar</PackageId>
-    <Version>0.5.0</Version>
+    <Version>0.5.1</Version>
     <Authors>spec-works</Authors>
     <Company>spec-works</Company>
     <Product>Specworks.iCalendar</Product>
@@ -20,7 +20,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>Initial preview release with full RFC 5545 support for parsing, validation, and serialization.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated namespace to Specworks.ICalendar for consistency with package naming.</PackageReleaseNotes>
     <Copyright>Copyright (c) 2023-2026 spec-works</Copyright>
 
     <!-- Strong Naming -->
