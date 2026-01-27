@@ -54,8 +54,8 @@ dotnet add package ICalendar.Net
 ### Building from Source
 
 ```bash
-git clone https://github.com/yourusername/icalendar-net.git
-cd icalendar-net
+git clone https://github.com/spec-works/iCalendar.git
+cd iCalendar/dotnet
 dotnet build
 ```
 
