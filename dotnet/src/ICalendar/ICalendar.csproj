@@ -10,18 +10,18 @@
     <!-- NuGet Package Properties -->
     <PackageId>ICalendar.Net</PackageId>
     <Version>1.0.0</Version>
-    <Authors>ICalendar Parser Team</Authors>
-    <Company>ICalendar.Net</Company>
+    <Authors>spec-works</Authors>
+    <Company>spec-works</Company>
     <Product>ICalendar.Net</Product>
     <Description>A complete .NET library for parsing, validating, and serializing iCalendar (text/calendar) data according to RFC 5545. Includes a full Document Object Model (DOM) for all iCalendar components including VCALENDAR, VEVENT, VTODO, VJOURNAL, VALARM, VTIMEZONE, and more.</Description>
     <PackageTags>icalendar;calendar;parser;serializer;validator;rfc5545;vcalendar;vevent;vtodo;ics</PackageTags>
-    <PackageProjectUrl>https://github.com/yourusername/icalendar-net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/yourusername/icalendar-net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/spec-works/iCalendar</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/spec-works/iCalendar</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>Initial release with full RFC 5545 support for parsing, validation, and serialization.</PackageReleaseNotes>
-    <Copyright>Copyright (c) 2023-2024</Copyright>
+    <Copyright>Copyright (c) 2023-2026 spec-works</Copyright>
 
     <!-- Strong Naming -->
     <AssemblyName>ICalendar</AssemblyName>
