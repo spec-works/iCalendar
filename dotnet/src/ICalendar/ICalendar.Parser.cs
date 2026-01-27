@@ -190,17 +190,17 @@ namespace ICalendar
                 var paramName = param.Substring(0, equalsIndex).ToUpperInvariant();
                 var paramValue = param.Substring(equalsIndex + 1);
 
-                // Remove quotes if present
-                if (paramValue.StartsWith("\"") && paramValue.EndsWith("\"") && paramValue.Length >= 2)
-                {
-                    paramValue = paramValue.Substring(1, paramValue.Length - 2);
-                }
-
-                // Handle comma-separated values
+                // Handle comma-separated values first (respecting quotes), then strip quotes from each value
                 var values = SplitParameterValues(paramValue);
                 foreach (var value in values)
                 {
-                    property.AddParameter(paramName, value);
+                    // Remove quotes if present from individual values
+                    var unquotedValue = value;
+                    if (unquotedValue.StartsWith("\"") && unquotedValue.EndsWith("\"") && unquotedValue.Length >= 2)
+                    {
+                        unquotedValue = unquotedValue.Substring(1, unquotedValue.Length - 2);
+                    }
+                    property.AddParameter(paramName, unquotedValue);
                 }
             }
         }
@@ -252,6 +252,7 @@ namespace ICalendar
                 if (c == '"')
                 {
                     inQuotes = !inQuotes;
+                    current.Append(c);
                 }
                 else if (c == ',' && !inQuotes)
                 {

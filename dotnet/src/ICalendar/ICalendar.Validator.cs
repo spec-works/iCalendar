@@ -331,7 +331,7 @@ namespace ICalendar
             var value = property.Value;
 
             // DURATION format: ["+"/"-"] "P" (dur-date / dur-time / dur-week)
-            var durationPattern = @"^[+-]?P(\d+W)|(\d+D)?(T(\d+H)?(\d+M)?(\d+S)?)?$";
+            var durationPattern = @"^[+-]?P((\d+W)|((\d+D)?(T(\d+H)?(\d+M)?(\d+S)?)?))$";
 
             if (!Regex.IsMatch(value, durationPattern))
             {
