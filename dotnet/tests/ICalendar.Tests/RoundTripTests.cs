@@ -2,8 +2,9 @@ using System;
 using System.Linq;
 using Xunit;
 using FluentAssertions;
+using Specworks.ICalendar;
 
-namespace ICalendar.Tests
+namespace Specworks.ICalendar.Tests
 {
     /// <summary>
     /// Tests that verify reading and writing iCalendar data produces consistent results

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace ICalendar
+namespace Specworks.ICalendar
 {
     /// <summary>
     /// Validator for iCalendar components according to RFC 5545

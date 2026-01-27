@@ -3,8 +3,9 @@ using System.IO;
 using System.Linq;
 using Xunit;
 using FluentAssertions;
+using Specworks.ICalendar;
 
-namespace ICalendar.Tests
+namespace Specworks.ICalendar.Tests
 {
     /// <summary>
     /// Tests for reading and writing various types of iCalendar payloads

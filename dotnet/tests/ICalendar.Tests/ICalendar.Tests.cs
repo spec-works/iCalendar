@@ -1,8 +1,9 @@
 using System;
 using System.Linq;
 using Xunit;
+using Specworks.ICalendar;
 
-namespace ICalendar.Tests
+namespace Specworks.ICalendar.Tests
 {
     public class ICalendarParserTests
     {

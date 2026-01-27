@@ -31,7 +31,7 @@ dotnet add package Specworks.iCalendar
 ### Parsing iCalendar
 
 ```csharp
-using ICalendar;
+using Specworks.ICalendar;
 
 // Parse from string
 var calendar = ICalendarParser.Parse(icalendarString);
@@ -51,7 +51,7 @@ foreach (var vevent in calendar.Events)
 ### Creating iCalendar
 
 ```csharp
-using ICalendar;
+using Specworks.ICalendar;
 
 // Create a calendar
 var calendar = new VCalendar
@@ -82,7 +82,7 @@ File.WriteAllText("calendar.ics", ics);
 ### Validating iCalendar
 
 ```csharp
-using ICalendar;
+using Specworks.ICalendar;
 
 var calendar = ICalendarParser.Parse(icalendarString);
 

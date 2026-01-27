@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ICalendar
+namespace Specworks.ICalendar
 {
     /// <summary>
     /// Base class for all iCalendar components

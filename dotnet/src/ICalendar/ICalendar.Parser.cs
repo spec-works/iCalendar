@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ICalendar
+namespace Specworks.ICalendar
 {
     /// <summary>
     /// Parser for text/calendar (iCalendar) format

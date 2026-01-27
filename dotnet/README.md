@@ -70,7 +70,7 @@ dotnet test
 ### Parsing an iCalendar String
 
 ```csharp
-using ICalendar;
+using Specworks.ICalendar;
 
 var icalData = @"BEGIN:VCALENDAR
 VERSION:2.0

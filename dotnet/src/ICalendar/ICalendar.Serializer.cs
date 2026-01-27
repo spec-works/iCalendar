@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace ICalendar
+namespace Specworks.ICalendar
 {
     /// <summary>
     /// Serializer for text/calendar (iCalendar) format

@@ -24,8 +24,8 @@
     <Copyright>Copyright (c) 2023-2026 spec-works</Copyright>
 
     <!-- Strong Naming -->
-    <AssemblyName>ICalendar</AssemblyName>
-    <RootNamespace>ICalendar</RootNamespace>
+    <AssemblyName>Specworks.ICalendar</AssemblyName>
+    <RootNamespace>Specworks.ICalendar</RootNamespace>
 
     <!-- Source Link Support -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
