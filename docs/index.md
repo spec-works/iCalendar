@@ -22,7 +22,7 @@ dotnet add package ICalendar.Net
 - ✅ **Serialize to iCalendar** - Generate valid .ics files
 - ✅ **DOM Support** - Complete Document Object Model for iCalendar data
 - ✅ **Type-Safe API** - Strong typing with nullable reference types
-- ✅ **Multi-Target** - Supports .NET 10.0 and .NET 8.0 (LTS)
+- ✅ **Multi-Target** - Supports .NET 6.0+
 
 ## Quick Start
 
@@ -194,7 +194,7 @@ The library supports all standard iCalendar properties including:
 
 ## Requirements
 
-- .NET 10.0 or .NET 8.0 (LTS)
+- .NET 6.0 or later
 - C# 10.0 or later
 
 ## Source Code
