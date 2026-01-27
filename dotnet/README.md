@@ -1,8 +1,8 @@
-# ICalendar.Net
+# Specworks.iCalendar
 
 A complete .NET library for parsing, validating, and serializing iCalendar (text/calendar) data according to RFC 5545.
 
-[![NuGet](https://img.shields.io/nuget/v/ICalendar.Net.svg)](https://www.nuget.org/packages/ICalendar.Net/)
+[![NuGet](https://img.shields.io/nuget/v/Specworks.iCalendar.svg)](https://www.nuget.org/packages/Specworks.iCalendar/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -48,7 +48,7 @@ A complete .NET library for parsing, validating, and serializing iCalendar (text
 ### Via NuGet (when published)
 
 ```bash
-dotnet add package ICalendar.Net
+dotnet add package Specworks.iCalendar
 ```
 
 ### Building from Source
@@ -361,7 +361,7 @@ dotnet test -c Release
 dotnet pack src/ICalendar/ICalendar.csproj -c Release -o ./artifacts
 
 # Publish to NuGet
-dotnet nuget push ./artifacts/ICalendar.Net.1.0.0.nupkg --api-key YOUR_API_KEY --source https://api.nuget.org/v3/index.json
+dotnet nuget push ./artifacts/Specworks.iCalendar.0.5.0.nupkg --api-key YOUR_API_KEY --source https://api.nuget.org/v3/index.json
 ```
 
 ### Version Updates
@@ -381,7 +381,7 @@ MIT License - This implementation is provided for educational and commercial use
 
 - [RFC 5545 - Internet Calendaring and Scheduling Core Object Specification (iCalendar)](https://tools.ietf.org/html/rfc5545)
 - [iCalendar.org](https://icalendar.org/)
-- [NuGet Package](https://www.nuget.org/packages/ICalendar.Net/)
+- [NuGet Package](https://www.nuget.org/packages/Specworks.iCalendar/)
 
 ## Contributing
 

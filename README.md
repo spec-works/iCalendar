@@ -12,7 +12,7 @@ See [specs.json](specs.json) for complete specification references.
 
 ## Implementations
 
-- **[.NET Library](dotnet/README.md)** - ![Build, Test, and Publish](https://github.com/spec-works/iCalendar/workflows/Build,%20Test,%20and%20Publish/badge.svg) [![NuGet](https://img.shields.io/nuget/v/ICalendar.Net.svg)](https://www.nuget.org/packages/ICalendar.Net/)
+- **[.NET Library](dotnet/README.md)** - ![Build, Test, and Publish](https://github.com/spec-works/iCalendar/workflows/Build,%20Test,%20and%20Publish/badge.svg) [![NuGet](https://img.shields.io/nuget/v/Specworks.iCalendar.svg)](https://www.nuget.org/packages/Specworks.iCalendar/)
 
 ## License
 

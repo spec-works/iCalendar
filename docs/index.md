@@ -11,7 +11,7 @@ ICalendar is a .NET library that provides comprehensive support for parsing, val
 Install via NuGet:
 
 ```bash
-dotnet add package ICalendar.Net
+dotnet add package Specworks.iCalendar
 ```
 
 ## Features
@@ -22,7 +22,7 @@ dotnet add package ICalendar.Net
 - ✅ **Serialize to iCalendar** - Generate valid .ics files
 - ✅ **DOM Support** - Complete Document Object Model for iCalendar data
 - ✅ **Type-Safe API** - Strong typing with nullable reference types
-- ✅ **Multi-Target** - Supports .NET 6.0+
+- ✅ **Multi-Target** - Supports .NET 10.0+
 
 ## Quick Start
 
@@ -194,7 +194,7 @@ The library supports all standard iCalendar properties including:
 
 ## Requirements
 
-- .NET 6.0 or later
+- .NET 10.0 or later
 - C# 10.0 or later
 
 ## Source Code
