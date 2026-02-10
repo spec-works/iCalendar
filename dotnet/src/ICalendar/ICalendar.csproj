@@ -26,6 +26,8 @@
     <!-- Strong Naming -->
     <AssemblyName>Specworks.ICalendar</AssemblyName>
     <RootNamespace>Specworks.ICalendar</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>ICalendar.snk</AssemblyOriginatorKeyFile>
 
     <!-- Source Link Support -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
