@@ -166,7 +166,7 @@ foreach (var vevent in calendar.Events)
 
 ## API Reference
 
-- [API Documentation](api/ICalendar.html) - Complete API reference
+- [API Documentation](api/Specworks.ICalendar.html) - Complete API reference
 
 ## Specification Compliance
 
