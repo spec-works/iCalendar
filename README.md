@@ -14,6 +14,10 @@ See [specs.json](specs.json) for complete specification references.
 
 - **[.NET Library](dotnet/README.md)** - ![Build, Test, and Publish](https://github.com/spec-works/iCalendar/workflows/Build,%20Test,%20and%20Publish/badge.svg) [![NuGet](https://img.shields.io/nuget/v/Specworks.iCalendar.svg)](https://www.nuget.org/packages/Specworks.iCalendar/)
 
+## Test Cases
+
+Shared, language-independent test cases are in [testcases/](testcases/).
+
 ## License
 
 MIT License

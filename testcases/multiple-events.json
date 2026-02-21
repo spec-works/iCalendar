@@ -1,0 +1,12 @@
+{
+  "name": "multiple-events",
+  "description": "Calendar containing three VEVENT components",
+  "expectedComponents": 3,
+  "expectedComponentType": "VEVENT",
+  "expectedEvents": [
+    { "UID": "event1@example.com", "SUMMARY": "Event 1" },
+    { "UID": "event2@example.com", "SUMMARY": "Event 2" },
+    { "UID": "event3@example.com", "SUMMARY": "Event 3" }
+  ],
+  "isValid": true
+}

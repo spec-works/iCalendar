@@ -1,0 +1,24 @@
+{
+  "name": "timezone",
+  "description": "VTIMEZONE with STANDARD and DAYLIGHT observance rules",
+  "expectedComponents": 1,
+  "expectedComponentType": "VTIMEZONE",
+  "expectedTimezoneProperties": {
+    "TZID": "America/New_York"
+  },
+  "expectedObservances": [
+    {
+      "type": "STANDARD",
+      "DTSTART": "20231105T020000",
+      "TZOFFSETFROM": "-0400",
+      "TZOFFSETTO": "-0500"
+    },
+    {
+      "type": "DAYLIGHT",
+      "DTSTART": "20240310T020000",
+      "TZOFFSETFROM": "-0500",
+      "TZOFFSETTO": "-0400"
+    }
+  ],
+  "isValid": true
+}

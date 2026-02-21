@@ -1,0 +1,13 @@
+{
+  "name": "escaped-characters",
+  "description": "Properties with escaped commas, semicolons, newlines, and backslashes",
+  "expectedComponents": 1,
+  "expectedComponentType": "VEVENT",
+  "expectedEventProperties": {
+    "UID": "escaped@example.com",
+    "SUMMARY": "Meeting, Planning; Review",
+    "DESCRIPTION": "Line 1\nLine 2\nLine 3",
+    "LOCATION": "Room\\Building A"
+  },
+  "isValid": true
+}

@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My Company//My Product//EN
+BEGIN:VEVENT
+UID:escaped@example.com
+DTSTAMP:20231201T120000Z
+SUMMARY:Meeting\, Planning\; Review
+DESCRIPTION:Line 1\nLine 2\nLine 3
+LOCATION:Room\\Building A
+END:VEVENT
+END:VCALENDAR

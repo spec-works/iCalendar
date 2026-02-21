@@ -1,0 +1,15 @@
+{
+  "name": "simple-todo",
+  "description": "VTODO with status, percent-complete, and due date",
+  "expectedComponents": 1,
+  "expectedComponentType": "VTODO",
+  "expectedTodoProperties": {
+    "UID": "todo-123@example.com",
+    "DTSTAMP": "20231201T120000Z",
+    "SUMMARY": "Complete project documentation",
+    "STATUS": "IN-PROCESS",
+    "PERCENT-COMPLETE": "50",
+    "DUE": "20231231T235959Z"
+  },
+  "isValid": true
+}

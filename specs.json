@@ -49,6 +49,18 @@
       "title": "IANA Media Type Registration for text/calendar"
     },
     {
+      "href": "https://github.com/spec-works/iCalendar/tree/main/testcases",
+      "rel": "https://specworks.org/rels/tests",
+      "type": "text/html",
+      "title": "Shared test cases"
+    },
+    {
+      "href": "https://github.com/spec-works/iCalendar/actions",
+      "rel": "https://specworks.org/rels/tests",
+      "type": "text/html",
+      "title": "CI Test Results"
+    },
+    {
       "rel": "registry",
       "title": "Part registry entry",
       "href": "https://spec-works.github.io/registry/parts/icalendar/"
