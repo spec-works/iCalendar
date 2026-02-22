@@ -199,6 +199,10 @@ The library supports all standard iCalendar properties including:
 - .NET 10.0 or later
 - C# 10.0 or later
 
+## Test Cases
+
+All implementations are validated against shared, language-independent test cases in the [testcases/](https://github.com/spec-works/iCalendar/tree/main/testcases) directory. Test cases use paired `.ics` input and `.json` expectation files covering events, todos, timezones, alarms, and escaped characters, plus negative tests for invalid documents.
+
 ## Source Code
 
 View the source code on [GitHub](https://github.com/spec-works/iCalendar).
