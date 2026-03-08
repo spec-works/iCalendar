@@ -1,0 +1,317 @@
+{
+  "source_base_path": "/home/runner/work/iCalendar/iCalendar/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.CalendarComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.CalendarComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.CalendarComponent",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.CalendarComponent.yml\" sourcestartlinenumber=\"1\">Base class for all iCalendar components</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.CalendarProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.CalendarProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.CalendarProperty",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.CalendarProperty.yml\" sourcestartlinenumber=\"1\">Represents a calendar property with parameters and value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.CalendarSerializerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.CalendarSerializerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.CalendarSerializerExtensions",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.CalendarSerializerExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for convenient serialization</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.ICalendarParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.ICalendarParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.ICalendarParser",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.ICalendarParser.yml\" sourcestartlinenumber=\"1\">Parser for text/calendar (iCalendar) format</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.ICalendarSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.ICalendarSerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.ICalendarSerializer",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.ICalendarSerializer.yml\" sourcestartlinenumber=\"1\">Serializer for text/calendar (iCalendar) format</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.ICalendarValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.ICalendarValidator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.ICalendarValidator",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.ICalendarValidator.yml\" sourcestartlinenumber=\"1\">Validator for iCalendar components according to RFC 5545</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.ParseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.ParseException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.ParseException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VAlarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VAlarm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VAlarm",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VAlarm.yml\" sourcestartlinenumber=\"1\">Alarm component (VALARM)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VCalendar",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VCalendar.yml\" sourcestartlinenumber=\"1\">Root calendar object (VCALENDAR)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VEvent",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VEvent.yml\" sourcestartlinenumber=\"1\">Event component (VEVENT)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VFreeBusy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VFreeBusy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VFreeBusy",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VFreeBusy.yml\" sourcestartlinenumber=\"1\">Free/busy component (VFREEBUSY)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VJournal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VJournal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VJournal",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VJournal.yml\" sourcestartlinenumber=\"1\">Journal component (VJOURNAL)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VTimeZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VTimeZone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VTimeZone",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VTimeZone.yml\" sourcestartlinenumber=\"1\">Time zone component (VTIMEZONE)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VTimeZoneDaylight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VTimeZoneDaylight.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VTimeZoneDaylight",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VTimeZoneDaylight.yml\" sourcestartlinenumber=\"1\">Daylight time zone component (DAYLIGHT)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VTimeZoneStandard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VTimeZoneStandard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VTimeZoneStandard",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VTimeZoneStandard.yml\" sourcestartlinenumber=\"1\">Standard time zone component (STANDARD)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.VTodo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.VTodo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.VTodo",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.VTodo.yml\" sourcestartlinenumber=\"1\">To-do component (VTODO)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.ValidationResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar.ValidationResult",
+      "Summary": "<p sourcefile=\"api/Specworks.ICalendar.ValidationResult.yml\" sourcestartlinenumber=\"1\">Result of validation operation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Specworks.ICalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Specworks.ICalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Specworks.ICalendar",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
