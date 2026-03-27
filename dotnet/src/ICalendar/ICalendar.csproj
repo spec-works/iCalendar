@@ -24,8 +24,13 @@
     <Copyright>Copyright (c) 2023-2026 spec-works</Copyright>
 
     <!-- Strong Naming -->
+    <!-- The strong name key file is committed to the repository following Microsoft's guidance for open-source libraries.
+         This allows contributors to build the same strong-named assembly and ensures a stable assembly identity.
+         See: https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/strong-naming -->
     <AssemblyName>Specworks.ICalendar</AssemblyName>
     <RootNamespace>Specworks.ICalendar</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>ICalendar.snk</AssemblyOriginatorKeyFile>
 
     <!-- Source Link Support -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
